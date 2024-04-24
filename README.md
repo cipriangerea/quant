@@ -1,7 +1,7 @@
 This is a script that is trying to show what happens with the various tickers used by a symphony. It consists of a notebook that is written to be used inside Google Colab.
 
 # How to use this: 
-- Go to Composer and in edit mode run a backtest of the symph. (Also works with QuantMage).
+- Go to QuantMage or Composer and run a backtest of the symph. Composer will need to be in edit mode.
 - Save the historical allocation csv
 - Open the StrategyAllocationVis.ipynb notebook in Colab
 - Run all cells. From the menu select Runtime/Run all
