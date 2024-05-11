@@ -1,11 +1,9 @@
 This is a script that is trying to show what happens with the various tickers used by a symphony. It consists of a notebook that is written to be used inside Google Colab.
 
 # How to use this: 
-- Go to QuantMage or Composer and run a backtest of the symph. Composer will need to be in edit mode.
-- Save the historical allocation csv
 - Open the StrategyAllocationVis.ipynb notebook in Colab
 - Run all cells. From the menu select Runtime/Run all
-- The second cell has a file picker, open the csv
+- The second cell has a picker dialog, pass it the composer symphony url
 
 # How to use the results
 1. Look at portfolio allocation over time. Chart is zoomable. Double click a symbol in the legend and it's going to show only that symbol.
